@@ -3,6 +3,7 @@
 body {
     display: block;
     font-family: "Roboto";
+    margin: 0px;
 }
 
 header {
@@ -47,7 +48,7 @@ a {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 35px 42px;
+    padding: 120px 42px;
     gap: 5px;
 }
 
@@ -81,7 +82,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 20px 60px;
+    padding: 60px 60px;
 }
 
 .card-container {
@@ -115,7 +116,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 35px 42px;
+    padding: 60px 42px;
 }
 
 .quote {
