@@ -20,7 +20,6 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    padding-right: 16px;
     gap: 8px;
 }
 
@@ -28,7 +27,9 @@ h2 {
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
+    margin-bottom: 8px;
     padding: 0px;
+    line-height: 0.9;
 }
 
 
@@ -38,7 +39,6 @@ a {
 }
 
 .logo {
-    padding-left: 16px;
     font-size: 24px;
 }
 
@@ -47,17 +47,19 @@ a {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    padding: 38px;
+    padding: 35px 42px;
+    gap: 5px;
 }
 
 .hero-left {
-    width: 400px;
+    flex: 1;
 }
 
 .hero-left p {
     font-size: 18px;
     padding: 0px;
     margin: 0px;
+    margin-bottom: 10px;
 }
 
 .hero-left button {
@@ -67,6 +69,7 @@ a {
 .hero-right {
     width: 400px;
     height: 200px;
+    flex: 1;
     background-color: gray;
     display: flex;
     justify-content: center;
@@ -78,7 +81,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 60px;
+    padding: 20px 60px;
 }
 
 .card-container {
@@ -86,11 +89,12 @@ a {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    font-size: 12px;
 }
 
 .cards {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 3px #3882F6 solid;
     border-radius: 10px;
     box-shadow: 0px 0px 10px gray;
@@ -111,12 +115,14 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 35px 42px;
 }
 
 .quote {
     font-size: 36px;
     font-weight: 100;
     text-align: justify;
+    
 }
 
 .author {
@@ -128,13 +134,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:10px;
+    padding: 10px 42px;
 }
 
 .action-container {
     display: flex;
     background-color: #3882F6;
-    padding: 0px 20px;
+    padding: 10px 100px;
     border-radius: 10px;
     width: 700px;
     justify-content: space-between;
@@ -152,7 +158,7 @@ a {
 
 button {
     background-color: #3882F6;
-    border-radius: 8px;
+    border-radius: 6px;
     padding: 5px 20px;
     border-style: solid;
     border-color: white;
